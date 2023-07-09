@@ -46,13 +46,12 @@
   .design-item {
     flex-basis: calc((100% - 1 * 24px) / 2);
   }
-}
-@media screen and (min-width: 768px) and (max-width: 1140px) {
+  .modal {
+    width: 408px;
+  }
   .footer-logo-div {
     display: flex;
     align-items: flex-start;
-    margin-left: 109px;
-    margin-right: 24px;
   }
 
   .social-footer-p {
@@ -79,3 +78,34 @@
     margin-left: 109px;
   }
 }
+
+/* @media screen and (min-width: 768px) and (max-width: 1140px) {
+  .footer-logo-div {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .social-footer-p {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .social-footer-div {
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .subscribe-in {
+    width: 264px;
+  }
+
+  .subscribe {
+    margin-left: 109px;
+  }
+} */
