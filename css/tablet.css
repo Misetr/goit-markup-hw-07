@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .header-address {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+  }
+  .header-contacts {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .solutions {
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/eople-office1@2xtablet.jpg);
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .solutions {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/people-office1.jpg);
+      }
+    }
+  }
+  .solutions-text {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  .design-tittle {
+    text-align: start;
+  }
+  .design-list {
+    column-gap: 24px;
+  }
+  .design-item {
+    flex-basis: calc((100% - 1 * 24px) / 2);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+  .footer-logo-div {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 109px;
+    margin-right: 24px;
+  }
+
+  .social-footer-p {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .social-footer-div {
+    align-items: flex-start;
+    margin: 0;
+  }
+
+  .subscribe-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .subscribe-in {
+    width: 264px;
+  }
+
+  .subscribe {
+    margin-left: 109px;
+  }
+}
