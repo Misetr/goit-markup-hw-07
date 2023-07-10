@@ -45,6 +45,12 @@
     display: flex;
     gap: 40px;
   }
+  .header-address {
+    font-size: 16px;
+  }
+  .contacts-link {
+    font-size: 16px;
+  }
   .design {
     padding-top: 120px;
     padding-bottom: 120px;
