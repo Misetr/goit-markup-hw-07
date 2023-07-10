@@ -578,11 +578,12 @@
 
 .footer-container {
   display: flex;
+  justify-content: center;
   align-items: baseline;
 }
 
 .subscribe {
-  display: flex;
+  /* display: flex; */
 }
 
 .subscribe-text {
@@ -593,12 +594,13 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffff;
+  text-align: center;
   margin-bottom: 16px;
 }
 .subscribe-form {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 .subscribe-in {
   display: flex;

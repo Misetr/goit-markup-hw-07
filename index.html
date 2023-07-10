@@ -148,13 +148,27 @@
           <h2 class="foto-question">What are we doing</h2>
           <ul class="foto-list list">
             <li class="foto-item">
-              <img src="./images/pc.jpg" alt="pc" width="360" />
+              <picture
+                ><source srcset="./images/pc.jpg 1x, ./images/pc@2x.jpg 2x" />
+                <img src="./images/pc.jpg" alt="pc" width="360" />
+              </picture>
+            </li>
+
+            <li class="foto-item">
+              <picture
+                ><source
+                  srcset="./images/phone.jpg 1x, ./images/phone@2x.jpg 2x"
+                />
+                <img src="./images/phone.jpg" alt="pc" width="360" />
+              </picture>
             </li>
             <li class="foto-item">
-              <img src="./images/phone.jpg" alt="phone" width="360" />
-            </li>
-            <li class="foto-item">
-              <img src="./images/img3.jpg" alt="pc and phone" width="360" />
+              <picture
+                ><source
+                  srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x"
+                />
+                <img src="./images/img3.jpg" alt="pc and phone" width="360" />
+              </picture>
             </li>
           </ul>
         </div>
