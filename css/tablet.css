@@ -14,20 +14,12 @@
   }
   .solutions {
     max-width: 1440px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/eople-office1@2xtablet.jpg);
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       .solutions {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-          ),
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
           url(../images/people-office1.jpg);
       }
     }
@@ -49,34 +41,20 @@
   .modal {
     width: 408px;
   }
-  .footer-logo-div {
-    display: flex;
-    align-items: flex-start;
-    margin-left: auto;
-  }
 
-  .social-footer-p {
-    display: flex;
+  /* Footer */
+  .footer-container {
+    text-align: left;
+    max-width: 584px;
     justify-content: flex-start;
   }
 
-  .social-footer-div {
-    align-items: flex-start;
-    margin: 0;
+  .subscribe {
+    max-width: 453px;
+    width: 100%;
   }
-
   .subscribe-form {
-    flex-direction: row;
-    align-items: flex-start;
+    flex-wrap: nowrap;
     gap: 24px;
-  }
-
-  .subscribe-in {
-    width: 264px;
-  }
-
-  .subscribe-text {
-    text-align: start;
-    margin-left: auto;
   }
 }

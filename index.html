@@ -293,7 +293,6 @@
                   class="team-member"
                 />
               </picture>
-              <img />
               <div class="team-div">
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-info">Marketing</p>
@@ -434,9 +433,9 @@
 
     <footer class="footer">
       <div class="footer-container container">
-        <div class="footer-logo-div">
+        <div class="footer-left">
           <a class="footer-logo link" href="./index.html"
-            >Web<span class="log-foter link">Studio</span></a
+            >Web<span class="footer-logo-light link">Studio</span></a
           >
           <p class="footer-info">
             Increase the flow of customers and sales for your business with
@@ -444,34 +443,32 @@
           </p>
         </div>
         <div class="social-footer-div">
-          <div class="footer-text-div">
-            <p class="social-footer-p">Social media</p>
-          </div>
+          <p class="social-footer-p">Social media</p>
           <ul class="socials-footer-list list">
             <li class="socials-footer-item">
-              <a href="" class="socials-footer-link"
-                ><svg class="socials-svg-footer" width="24" height="24">
+              <a href="" class="socials-footer-link">
+                <svg class="socials-footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
             <li class="socials-footer-item">
-              <a href="" class="socials-footer-link"
-                ><svg class="socials-svg-footer" width="24" height="24">
+              <a href="" class="socials-footer-link">
+                <svg class="socials-footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li class="socials-footer-item">
-              <a href="" class="socials-footer-link"
-                ><svg class="socials-svg-footer" width="24" height="24">
+              <a href="" class="socials-footer-link">
+                <svg class="socials-footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li class="socials-footer-item">
               <a href="" class="socials-footer-link">
-                <svg class="socials-svg-footer" width="24" height="24">
+                <svg class="socials-footer-icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
@@ -481,7 +478,7 @@
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label for="email-name" class="label-s">
+            <label class="subscribe-form-label" for="email-name">
               <input
                 class="subscribe-in"
                 name="email-name"
@@ -491,9 +488,9 @@
                 required
               />
             </label>
-            <button type="submit" class="subscribe-button">
+            <button class="subscribe-button" type="submit">
               Subscribe
-              <svg width="24" height="24" class="subscribe-svg">
+              <svg class="subscribe-svg" width="24" height="24">
                 <use href="./images/persons.svg#icon-Frame-3"></use>
               </svg>
             </button>
@@ -501,6 +498,7 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop is-hidden" data-modal>
       <div id="modal" class="modal">
         <button class="modal-content" type="button" data-modal-close>
@@ -650,13 +648,14 @@
         </li>
       </ul>
     </div>
+
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

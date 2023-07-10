@@ -11,20 +11,12 @@
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/people-office1.jpg);
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       .solutions {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)
-          ),
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
           url(../images/people-office1.jpg);
       }
     }
@@ -100,10 +92,13 @@
   .team-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
   }
-
-  .footer-logo {
+  .footer-container {
+    gap: 0;
   }
 
+  .footer-left {
+    margin-right: 120px;
+  }
   .social-footer-p {
     display: flex;
     justify-content: flex-start;
@@ -115,46 +110,7 @@
     color: #ffffff;
   }
 
-  .footer-logo-div {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .social-footer-div {
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .footer-container {
-    display: flex;
-    align-items: baseline;
-  }
-  .subscribe-form {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-  }
   .subscribe {
-    margin-left: 80px;
-    display: block;
-  }
-  .subscribe-button {
-    background-color: #4d5ae5;
-    color: #ffff;
-    border: none;
-    border-radius: 4px;
-    min-width: 165px;
-    height: 40px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    display: flex;
-    padding: 8px 24px;
-    justify-content: center;
-    align-items: center;
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: auto;
   }
 }
